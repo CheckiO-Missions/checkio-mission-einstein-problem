@@ -8,7 +8,7 @@ TESTS = {
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
               'yellow-cat','Winfield-Swede','tea-Marlboro'],['hourse-cigarettes'])
-    "answer": 'Marlboro'
+    "answer": "Marlboro"
     },
     {
     "input": (['Norwegian-Dunhill','Marlboro-blue','Brit-3',
