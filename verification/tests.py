@@ -7,7 +7,8 @@ TESTS = {
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
               'yellow-cat','Winfield-Swede','tea-Marlboro'],['hourse-cigarettes']),
-    "answer": 'Marlboro'},
+    "answer": 'Marlboro',
+    "explanation": "Test 1"},
     {
     "input": (['Norwegian-Dunhill','Marlboro-blue','Brit-3',
               'German-coffee','beer-white','cat-water',
@@ -16,7 +17,8 @@ TESTS = {
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
               'yellow-cat','Winfield-Swede','tea-Marlboro'],['green-num']),
-    "answer": '4' 
+    "answer": '4' ,
+    "explanation": "Test 2"
     },
     {
     "input": (['Norwegian-Dunhill','Marlboro-blue','Brit-3',
@@ -26,7 +28,8 @@ TESTS = {
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
               'yellow-cat','Winfield-Swede','tea-Marlboro'],['milk-colors']),
-    "answer": 'red'
+    "answer": 'red',
+    "explanation": "Test 3",
     },        
     {
     "input": (['Norwegian-Dunhill','Marlboro-blue','Brit-3',
@@ -36,7 +39,8 @@ TESTS = {
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
               'yellow-cat','Winfield-Swede','tea-Marlboro'],['Winfield-person']),
-    "answer": 'Swede'
+    "answer": 'Swede',
+    "explanation": "Test 4",
     },
     {
     "input": (['Norwegian-Dunhill','Marlboro-blue','Brit-3',
@@ -47,5 +51,6 @@ TESTS = {
               'Dane-blue','5-dog','blue-horse',
               'yellow-cat','Winfield-Swede','tea-Marlboro'],['yellow-pets']),
     "answer": 'cat'
+    "explanation": "Test 5",
     },
             ]}
