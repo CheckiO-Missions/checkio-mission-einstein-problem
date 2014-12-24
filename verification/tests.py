@@ -50,7 +50,7 @@ TESTS = {
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
               'yellow-cat','Winfield-Swede','tea-Marlboro'],['yellow-pets']),
-    "answer": 'cat'
-    "explanation": "Test 5",
+    "answer": 'cat',
+    "explanation": "Test 5"
     },
             ]}
