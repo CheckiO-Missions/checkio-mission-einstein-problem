@@ -6,8 +6,8 @@ TESTS = {
               'dog-Swede','Norwegian-1','horse-Marlboro',
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
-              'yellow-cat','Winfield-Swede','tea-Marlboro'],['hourse-cigarettes'])
-    "answer": "Marlboro"},
+              'yellow-cat','Winfield-Swede','tea-Marlboro'],['hourse-cigarettes']),
+    "answer": 'Marlboro'},
     {
     "input": (['Norwegian-Dunhill','Marlboro-blue','Brit-3',
               'German-coffee','beer-white','cat-water',
@@ -15,7 +15,7 @@ TESTS = {
               'dog-Swede','Norwegian-1','horse-Marlboro',
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
-              'yellow-cat','Winfield-Swede','tea-Marlboro'],['green-num'])
+              'yellow-cat','Winfield-Swede','tea-Marlboro'],['green-num']),
     "answer": '4' 
     },
     {
@@ -25,7 +25,7 @@ TESTS = {
               'dog-Swede','Norwegian-1','horse-Marlboro',
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
-              'yellow-cat','Winfield-Swede','tea-Marlboro'],['milk-colors'])
+              'yellow-cat','Winfield-Swede','tea-Marlboro'],['milk-colors']),
     "answer": 'red'
     },        
     {
@@ -35,7 +35,7 @@ TESTS = {
               'dog-Swede','Norwegian-1','horse-Marlboro',
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
-              'yellow-cat','Winfield-Swede','tea-Marlboro'],['Winfield-person'])
+              'yellow-cat','Winfield-Swede','tea-Marlboro'],['Winfield-person']),
     "answer": 'Swede'
     },
     {
@@ -45,7 +45,7 @@ TESTS = {
               'dog-Swede','Norwegian-1','horse-Marlboro',
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
-              'yellow-cat','Winfield-Swede','tea-Marlboro'],['yellow-pets'])
+              'yellow-cat','Winfield-Swede','tea-Marlboro'],['yellow-pets']),
     "answer": 'cat'
     },
-            ]
+            ]}
