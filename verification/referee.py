@@ -9,4 +9,4 @@ CheckiOReferee(TESTS,
                    'python-27': cover_codes.unwrap_args,  # or None
                    'python-3': cover_codes.unwrap_args})
 
-api.add_listener(ON_CONNECT, CheckiOReferee(tests).on_ready)
+api.add_listener(ON_CONNECT, CheckiOReferee(TESTS).on_ready)
