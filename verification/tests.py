@@ -6,7 +6,7 @@ TESTS = {
               'dog-Swede','Norwegian-1','horse-Marlboro',
               'bird-Brit','4-green','Winfield-beer',
               'Dane-blue','5-dog','blue-horse',
-              'yellow-cat','Winfield-Swede','tea-Marlboro'],['hourse-cigarettes']),
+              'yellow-cat','Winfield-Swede','tea-Marlboro'],['horse-cigarettes']),
     "answer": 'Marlboro',
     "explanation": "Test 1"},
     {
