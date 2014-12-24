@@ -5,17 +5,12 @@ from checkio.referees import cover_codes
 from checkio.referees import checkers
 
 from tests import TESTS
-
+def checker(result, test_data):
+    return result['code_result']
+    
 api.add_listener(
     ON_CONNECT,
     CheckiOReferee(
         tests=TESTS,
-        cover_code={
-            'python-27': cover_codes.unwrap_args,  # or None
-            'python-3': cover_codes.unwrap_args
-        },
-        # checker=None,  # checkers.float.comparison(2)
-        # add_allowed_modules=[],
-        # add_close_builtins=[],
-        # remove_allowed_modules=[]
+        check_result=checker,
     ).on_ready)
