@@ -4,7 +4,7 @@ from checkio.referees.io import CheckiOReferee
 
 from tests import TESTS
 from checkio.referees import cover_codes
-CheckiOReferee(tests,
+CheckiOReferee(TESTS,
                cover_code={
                    'python-27': cover_codes.unwrap_args,  # or None
                    'python-3': cover_codes.unwrap_args})
