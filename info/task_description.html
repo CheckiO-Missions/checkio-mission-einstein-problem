@@ -1,35 +1,54 @@
-<center><h3>Einstein's Problem</h3></center>
-<dir>The first is a simplified version of the problem Einstein</dir>
+<p>
+    <a href="http://en.wikipedia.org/wiki/Zebra_Puzzle#cite_note-1">The Einstein's Puzzle</a>
+    is a well-known logic puzzle.
+    It is often called Einstein's Puzzle because it is said to have been invented by Albert Einstein as a boy.
+    However, there is no known evidence for Einstein's or Carroll's authorship.
+    This puzzle can be modified with various conditions and we will get many similar puzzle.
+    For start we will solve simplifier version of the puzzle.
+</p>
+<p>
+    There are 5 houses (along the street) in 5 different colors:
+    <b>Blue</b>, <b>Green</b>, <b>Red</b>, <b>White</b> and <b>Yellow</b>.<br>
+    In each house lives a person of a different nationality:
+    <b>Brit</b>, <b>Dane</b>, <b>German</b>, <b>Norwegian</b> and <b>Swede</b>.<br>
+    These people drink a certain beverage:
+    <b>beer</b>, <b>coffee</b>, <b>milk</b>, <b>tea</b> and <b>water</b>.
+    Smoke a certain brand of cigarettes:
+    <b>Rothmans</b>, <b>Dunhill</b>, <b>PallMall</b>, <b>Winfield</b> and <b>Marlboro</b>.<br>
+    Keep a certain pet:
+    <b>Cat</b>, <b>Bird</b>, <b>Dog</b>, <b>Fish</b> and <b>Horse</b>.
+</p>
 
-<p>The author of this problem is Albert Einstein who said that 98% of the
-people in the world couldn't solve it.</p>
-<p> There are 5 houses (along the street) in 5 different colors:
-blue, green, red, white and yellow.</p>
 <p>
-In each house lives a person of a different nationality:
-Brit, Dane, German, Norwegian and Swede.
+    No owners have the same pet, smoke the same brand of cigar, or drink the same beverage.
+</p>
+
+<p>
+    You are given a set of "relations". Each relation connect two term in ownership relation. For example:
+    "Norwegian-Dunhill" means that Norwegian smoke only Dunhill, or "5-Dog" means that owner of 5th house keeps the Dog.
+    In this Einstein version we will use only these relations.
+</p>
+
+<p>
+    The second argument is a question which you should answer. The question is represented as two words separated by dash.
+    First word is characteristic of owner and the second is what you should say:
+    <b>number</b>, <b>color</b>, <b>nationality</b>, <b>beverage</b>, <b>cigarettes</b> or <b>pet</b>.
+    For example: "Horse-cigarettes" is equal to question "What the cigarettes does smoke the owner of the Horse?" or
+    "green-number" == "What is the number of the green house?".
+</p>
+
+<p>
+    <strong>Input: </strong> Two arguments. Relations as a tuple of strings and a question as a string.
 </p>
 <p>
-These 5 owners
-drink a certain beverage:
-beer, coffee, milk, tea and water,
-smoke a certain brand of cigar:
-Rothmans, Dunhill, Pall Mall, Winfield and Marlboro
-and keep a certain pet:
-cat, bird, dog, fish and horse.
+    <strong>Output: </strong> The answer as a string.
 </p>
 <p>
-No owners have the same pet, smoke the same brand of cigar, or drink the same beverage.
+    <strong>How it is used:</strong>
+    As first it's of course you will be closer to solve the Einstein problem.
+    And as side effect learn something about constraint satisfaction problems.
 </p>
+
 <p>
-<strong>Input: </strong>
-Is a list of pairs of values that uniquely identify a value of 5 houses , and one the question.
-</p>
-<p>
-<strong>Output: </strong>
-Response line
-</p>
-<p>
-<strong>How it is used:</strong>
-This task applied to the analysis of combinations
+    <strong>Precondition:</strong>
 </p>
