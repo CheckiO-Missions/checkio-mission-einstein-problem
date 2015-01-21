@@ -5,7 +5,6 @@ from checkio.referees import cover_codes
 
 from tests import TESTS
 
-api.add_listener(ON_CONNECT, CheckiOReferee(TESTS).on_ready)
 api.add_listener(
     ON_CONNECT,
     CheckiOReferee(
@@ -13,4 +12,6 @@ api.add_listener(
         cover_code={
             'python-27': cover_codes.unwrap_args,  # or None
             'python-3': cover_codes.unwrap_args
-        },).on_ready)
+        },
+        function_name="answer"
+        ).on_ready)
