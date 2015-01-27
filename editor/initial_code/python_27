@@ -19,7 +19,7 @@ if __name__ == '__main__':
                    'bird-Brit', '4-green', 'Winfield-beer',
                    'Dane-blue', '5-dog', 'blue-horse',
                    'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'),
-                  'fish-colors') == 'green'  # What is the color of the house where the Fish lives?
+                  'fish-color') == 'green'  # What is the color of the house where the Fish lives?
     assert answer(('Norwegian-Dunhill', 'Marlboro-blue', 'Brit-3',
                    'German-coffee', 'beer-white', 'cat-water',
                    'horse-2', 'milk-3', '4-Rothmans',
@@ -27,7 +27,7 @@ if __name__ == '__main__':
                    'bird-Brit', '4-green', 'Winfield-beer',
                    'Dane-blue', '5-dog', 'blue-horse',
                    'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'),
-                  'tea-num') == '2'  # What is the number of the house where tea is favorite beverage?
+                  'tea-number') == '2'  # What is the number of the house where tea is favorite beverage?
     assert answer(('Norwegian-Dunhill', 'Marlboro-blue', 'Brit-3',
                    'German-coffee', 'beer-white', 'cat-water',
                    'horse-2', 'milk-3', '4-Rothmans',
@@ -35,4 +35,4 @@ if __name__ == '__main__':
                    'bird-Brit', '4-green', 'Winfield-beer',
                    'Dane-blue', '5-dog', 'blue-horse',
                    'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'),
-                  'Norwegian-potables') == 'water'  # What is the favorite beverage of the Norwegian man?
+                  'Norwegian-beverage') == 'water'  # What is the favorite beverage of the Norwegian man?
