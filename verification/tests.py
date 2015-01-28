@@ -8,7 +8,7 @@ TESTS = {
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
                        'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'),
-                      'fish-colors'),
+                      'fish-color'),
             "answer": 'green',
         },
         {
@@ -19,7 +19,7 @@ TESTS = {
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
                        'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'),
-                      'tea-num'),
+                      'tea-number'),
             "answer": '2',
         },
         {
@@ -30,7 +30,7 @@ TESTS = {
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
                        'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'),
-                      'Norwegian-potables'),
+                      'Norwegian-beverage'),
             "answer": 'water',
         },
 
@@ -44,7 +44,7 @@ TESTS = {
                        'dog-Swede', 'Norwegian-1', 'horse-Marlboro',
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
-                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], ['horse-cigarettes']),
+                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], 'horse-cigarettes'),
             "answer": 'Marlboro',
         },
         {
@@ -54,7 +54,7 @@ TESTS = {
                        'dog-Swede', 'Norwegian-1', 'horse-Marlboro',
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
-                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], ['green-num']),
+                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], 'green-number'),
             "answer": '4',
         },
         {
@@ -64,7 +64,7 @@ TESTS = {
                        'dog-Swede', 'Norwegian-1', 'horse-Marlboro',
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
-                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], ['milk-colors']),
+                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], 'milk-color'),
             "answer": 'red',
         },
         {
@@ -74,7 +74,7 @@ TESTS = {
                        'dog-Swede', 'Norwegian-1', 'horse-Marlboro',
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
-                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], ['Winfield-person']),
+                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], 'Winfield-nationality'),
             "answer": 'Swede',
         },
         {
@@ -84,7 +84,7 @@ TESTS = {
                        'dog-Swede', 'Norwegian-1', 'horse-Marlboro',
                        'bird-Brit', '4-green', 'Winfield-beer',
                        'Dane-blue', '5-dog', 'blue-horse',
-                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], ['yellow-pets']),
+                       'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'], 'yellow-pet'),
             "answer": 'cat',
         },
     ]}
