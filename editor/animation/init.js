@@ -51,7 +51,7 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210', 'snap.svg_030'],
                     'yellow-cat', 'Winfield-Swede', 'tea-Marlboro'],
                     'fish-colors'];
             var checkioInputStr = fname + '(' + JSON.stringify(checkioInput[0]).replace("[", "(").replace("]", ")") + ", " +
-                JSON.stringify(checkioInput[2]) + ')';
+                JSON.stringify(checkioInput[1]) + ')';
 
             var failError = function (dError) {
                 $content.find('.call').html(checkioInputStr);
