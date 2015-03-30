@@ -1,0 +1,55 @@
+<p>
+    <a href="http://en.wikipedia.org/wiki/Zebra_Puzzle">El acertijo de Einstein</a>
+    es un acertijo lógico bien conocido.
+    Es a menudo llamado el acertijo de Einstein porque se dice que fue inventado por Albert Einstein cuando era un niño.
+    Sin embarho, no hay evidencia de que sea autoría de Einstein o Carroll.
+    Este acertijo puede ser modificado con varias condiciones para producir una variedad similar de acertijos. Para comenzar
+    resolveremos una versión simplificada del acertijo.
+</p>
+<p>
+    Hay 5 casas en la calla que están pintadas de 5 colores diferentes:
+    <b>blue</b> (azul), <b>green</b> (verde), <b>red</b> (rojo), <b>white</b> (blanco) y <b>yellow</b> (amarillo).<br>
+    En cada casa vive una persona de diferente nacionalidad:
+    <b>Brit</b> (birtánico), <b>Dane</b> (danés), <b>German</b> (alemán), <b>Norwegian</b> (noruego) y <b>Swede</b> (suizo).<br>
+    Estás personas beben cierta bebida:
+    <b>beer</b> (cerveza), <b>coffee</b> (café), <b>milk</b> (leche), <b>tea</b> (té) y  <b>water</b> (agua).<br>
+    Fuman cierta marca de cigarrillos:
+    <b>Rothmans</b>, <b>Dunhill</b>, <b>PallMall</b>, <b>Winfield</b> y <b>Marlboro</b>.<br>
+    Y tienen alguna mascota:
+    <b>cat</b> (gato), <b>bird</b> (pájaro), <b>dog</b> (perro), <b>fish</b> (pez) y <b>horse</b> (caballo).
+</p>
+
+<p>
+    Ninguno de los propietarios tiene la misma mascota, fuma la misma marca de cigarrillos o beben la misma bebida.
+</p>
+
+<p>
+    Se te da un conjunto de "relaciones". Cada relación conecta dos identificadores en las relaciones de los propietarios. Por 
+    ejemplo: "Norwegian-Dunhill" indica que el noruego fuma sólo Dunhill. "5-dog" indica que el propietario de la quinta casa
+    también es propietario de un perro. De manera similar a la versión de Einstein de este problema, sólo usaremos este tipo de 
+    relaciones.
+</p>
+
+<p>
+    El segundo argumento es una pregunta que debes responder. La pregunta es representada como dos palabras separadas por guión.
+    La primera palabra es una característica del propietario mientras la segunda es una característica (<strong>número,
+    color, nacionalidad, bebida, cigarrillos o mascota</strong>) que debes determinar basandote en las primeras características. 
+    Por ejemplo: "horse-cigarrettes" pregunta "Que marca de cigarrillos el propietario del caballo fuma?" o "green-number" pregunta 
+    "Cuál es el número de la calle de la casa verde?
+</p>
+
+<p>
+    <strong>Entrada: </strong> Dos argumentos. Relaciones como una tupla de cadenas de carácteres y una pregunta como una cadena de carácteres.
+</p>
+<p>
+    <strong>Salida: </strong> La respuesta como una cadena de carácteres.
+</p>
+<p>
+    <strong>Cómo se usa:</strong>
+    Esta misión te enseña acerca de problemas de satisfacción de condiciones en el clásico contexto de un acertijo de Einstein.
+</p>
+
+<p>
+    <strong>Precondición:</strong><br>
+    Todas las preguntas tienen solo una posible respuesta.
+</p>
